@@ -1,0 +1,83 @@
+{
+  "K": 33,
+  "rows": [
+    {
+      "index": 0,
+      "input_probability": 0.05582790630199844,
+      "ideal_success": 0.999999557086775,
+      "qubits": 1,
+      "basis_ops": {
+        "rz": 131,
+        "sx": 66,
+        "barrier": 65,
+        "x": 32
+      },
+      "note": "A Ry preparation isolates the fixed-point response; no Gomoku oracle or state preparation"
+    },
+    {
+      "index": 1,
+      "input_probability": 0.0626,
+      "ideal_success": 0.9999992116959989,
+      "qubits": 1,
+      "basis_ops": {
+        "rz": 131,
+        "sx": 66,
+        "barrier": 65,
+        "x": 32
+      },
+      "note": "A Ry preparation isolates the fixed-point response; no Gomoku oracle or state preparation"
+    },
+    {
+      "index": 2,
+      "input_probability": 0.1,
+      "ideal_success": 0.9999999089428878,
+      "qubits": 1,
+      "basis_ops": {
+        "rz": 131,
+        "sx": 66,
+        "barrier": 65,
+        "x": 32
+      },
+      "note": "A Ry preparation isolates the fixed-point response; no Gomoku oracle or state preparation"
+    },
+    {
+      "index": 3,
+      "input_probability": 0.5,
+      "ideal_success": 0.9999990111907098,
+      "qubits": 1,
+      "basis_ops": {
+        "rz": 131,
+        "sx": 66,
+        "barrier": 65,
+        "x": 32
+      },
+      "note": "A Ry preparation isolates the fixed-point response; no Gomoku oracle or state preparation"
+    },
+    {
+      "index": 4,
+      "input_probability": 0.9,
+      "ideal_success": 0.9999990070877072,
+      "qubits": 1,
+      "basis_ops": {
+        "rz": 131,
+        "sx": 66,
+        "barrier": 65,
+        "x": 32
+      },
+      "note": "A Ry preparation isolates the fixed-point response; no Gomoku oracle or state preparation"
+    },
+    {
+      "index": 5,
+      "input_probability": 1.0,
+      "ideal_success": 1.0000000000000004,
+      "qubits": 1,
+      "basis_ops": {
+        "rz": 131,
+        "sx": 66,
+        "barrier": 65,
+        "x": 32
+      },
+      "note": "A Ry preparation isolates the fixed-point response; no Gomoku oracle or state preparation"
+    }
+  ]
+}

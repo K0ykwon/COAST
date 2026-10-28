@@ -1,0 +1,263 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "winner_test": {
+    "boards": 81,
+    "ancillas_restored": true,
+    "passed": true
+  },
+  "winner_fast_test": {
+    "boards": 81,
+    "ancillas_restored": true,
+    "passed": true
+  },
+  "modules": {
+    "winner7": {
+      "qubits": 105,
+      "abstract_depth": 723,
+      "abstract_ops": {
+        "mcx": 721,
+        "x": 13
+      },
+      "file": "winner7.qpy",
+      "basis_all_to_all": {
+        "qubits": 105,
+        "depth": 415838,
+        "cx": 215180,
+        "two_qubit_depth": 167729,
+        "ops": {
+          "rz": 306539,
+          "cx": 215180,
+          "sx": 63388,
+          "x": 5
+        },
+        "routing": "none; all-to-all reference, not hardware-native"
+      },
+      "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+    },
+    "winner7_fast": {
+      "qubits": 110,
+      "abstract_depth": 4569,
+      "abstract_ops": {
+        "ccx": 4689,
+        "cx": 120,
+        "x": 13
+      },
+      "file": "winner7_fast.qpy",
+      "basis_all_to_all": {
+        "qubits": 110,
+        "depth": 42493,
+        "cx": 23814,
+        "two_qubit_depth": 19288,
+        "ops": {
+          "rz": 34239,
+          "cx": 23814,
+          "sx": 4344,
+          "x": 2
+        },
+        "routing": "none; all-to-all reference, not hardware-native"
+      },
+      "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+    }
+  },
+  "references": {
+    "ttt_late": {
+      "prepare": {
+        "qubits": 4,
+        "abstract_depth": 1,
+        "abstract_ops": {
+          "state_preparation": 1
+        },
+        "file": "ttt_late_prepare.qpy",
+        "basis_all_to_all": {
+          "qubits": 4,
+          "depth": 54,
+          "cx": 10,
+          "two_qubit_depth": 10,
+          "ops": {
+            "rz": 32,
+            "sx": 21,
+            "cx": 10
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      },
+      "filter": {
+        "qubits": 4,
+        "abstract_depth": 5,
+        "abstract_ops": {
+          "A_table": 2,
+          "diagonal": 2,
+          "A_table_dg": 1
+        },
+        "file": "ttt_late_filter.qpy",
+        "basis_all_to_all": {
+          "qubits": 4,
+          "depth": 172,
+          "cx": 44,
+          "two_qubit_depth": 43,
+          "ops": {
+            "rz": 103,
+            "sx": 57,
+            "cx": 44
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      },
+      "final": {
+        "qubits": 4,
+        "abstract_depth": 5,
+        "abstract_ops": {
+          "F_table": 2,
+          "diagonal": 2,
+          "F_table_dg": 1
+        },
+        "file": "ttt_late_final.qpy",
+        "basis_all_to_all": {
+          "qubits": 4,
+          "depth": 526,
+          "cx": 146,
+          "two_qubit_depth": 142,
+          "ops": {
+            "rz": 316,
+            "sx": 165,
+            "cx": 146
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      },
+      "qpe4": {
+        "qubits": 8,
+        "abstract_depth": 18,
+        "abstract_ops": {
+          "cQ_calibration": 15,
+          "h": 4,
+          "measure": 4,
+          "F_table": 1,
+          "qft_dg": 1
+        },
+        "file": "ttt_late_qpe4.qpy",
+        "basis_all_to_all": {
+          "qubits": 8,
+          "depth": 32373,
+          "cx": 13832,
+          "two_qubit_depth": 13601,
+          "ops": {
+            "rz": 22007,
+            "cx": 13832,
+            "sx": 7085,
+            "measure": 4
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      }
+    },
+    "gomoku_four_empty": {
+      "prepare": {
+        "qubits": 6,
+        "abstract_depth": 1,
+        "abstract_ops": {
+          "state_preparation": 1
+        },
+        "file": "gomoku_four_empty_prepare.qpy",
+        "basis_all_to_all": {
+          "qubits": 6,
+          "depth": 279,
+          "cx": 57,
+          "two_qubit_depth": 57,
+          "ops": {
+            "rz": 141,
+            "sx": 92,
+            "cx": 57,
+            "x": 4
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      },
+      "filter": {
+        "qubits": 6,
+        "abstract_depth": 5,
+        "abstract_ops": {
+          "A_table": 2,
+          "diagonal": 2,
+          "A_table_dg": 1
+        },
+        "file": "gomoku_four_empty_filter.qpy",
+        "basis_all_to_all": {
+          "qubits": 6,
+          "depth": 949,
+          "cx": 245,
+          "two_qubit_depth": 233,
+          "ops": {
+            "rz": 498,
+            "sx": 270,
+            "cx": 245,
+            "x": 12
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      },
+      "final": {
+        "qubits": 6,
+        "abstract_depth": 5,
+        "abstract_ops": {
+          "F_table": 2,
+          "diagonal": 2,
+          "F_table_dg": 1
+        },
+        "file": "gomoku_four_empty_final.qpy",
+        "basis_all_to_all": {
+          "qubits": 6,
+          "depth": 2959,
+          "cx": 809,
+          "two_qubit_depth": 761,
+          "ops": {
+            "rz": 1569,
+            "cx": 809,
+            "sx": 804,
+            "x": 36
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      },
+      "qpe4": {
+        "qubits": 10,
+        "abstract_depth": 18,
+        "abstract_ops": {
+          "cQ_calibration": 15,
+          "h": 4,
+          "measure": 4,
+          "F_table": 1,
+          "qft_dg": 1
+        },
+        "file": "gomoku_four_empty_qpe4.qpy",
+        "basis_all_to_all": {
+          "qubits": 10,
+          "depth": 163380,
+          "cx": 69833,
+          "two_qubit_depth": 69141,
+          "ops": {
+            "rz": 109657,
+            "cx": 69833,
+            "sx": 32138,
+            "x": 12,
+            "measure": 4
+          },
+          "routing": "none; all-to-all reference, not hardware-native"
+        },
+        "serialized_form": "primitive basis; avoids nested custom-controlled-gate QPY ambiguity"
+      }
+    }
+  }
+}

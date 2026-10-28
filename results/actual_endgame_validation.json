@@ -1,0 +1,360 @@
+{
+  "terminal_set_equality": true,
+  "distinct_root_terminal_pairs": 13,
+  "raw_flag_off_target_probability": 1.1711804643684022e-32,
+  "raw_success_amplitude_max_error": 1.1102230246251565e-16,
+  "per_root": [
+    {
+      "action": 0,
+      "site": 7,
+      "terminal_count": 1,
+      "raw_flag_probability": 0.16666666666666657,
+      "win_fraction": 1.0
+    },
+    {
+      "action": 1,
+      "site": 8,
+      "terminal_count": 4,
+      "raw_flag_probability": 0.6666666666666661,
+      "win_fraction": 0.5
+    },
+    {
+      "action": 2,
+      "site": 17,
+      "terminal_count": 4,
+      "raw_flag_probability": 0.6666666666666661,
+      "win_fraction": 0.5
+    },
+    {
+      "action": 3,
+      "site": 33,
+      "terminal_count": 4,
+      "raw_flag_probability": 0.6666666666666661,
+      "win_fraction": 0.5
+    }
+  ],
+  "stages": {
+    "raw": {
+      "norm": 0.9999999999999993,
+      "action_probabilities": [
+        0.2499999999999999,
+        0.24999999999999983,
+        0.2499999999999998,
+        0.2499999999999998
+      ],
+      "flag_probability_given_action": [
+        0.16666666666666666,
+        0.6666666666666665,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "marked_probability": 0.2916666666666664,
+      "invalid_or_dirty_move_probability": 2.8579033540268185e-32,
+      "abstract_operations": 110,
+      "inverse_zero_return_probability": 0.9999999999999991,
+      "qpy_file": "COAST_G7_E4_raw.qpy",
+      "qpy_bytes": 80836,
+      "sha256": "387ab931b2bc3b29381b48a24ef3980efeaa1e336bdc788d954517780936ba88",
+      "qpy_roundtrip_fidelity": 0.9999999999999982,
+      "qpy_roundtrip_max_amplitude_error": 1.6653345369377348e-16,
+      "coherent_random_input_max_amplitude_error": 4.1905781469630556e-17,
+      "circuit_depth": 464,
+      "circuit_operations": {
+        "x": 1278,
+        "mcx": 175,
+        "ry": 142,
+        "ccx": 4,
+        "h": 2
+      }
+    },
+    "fpaa": {
+      "norm": 0.999999999999999,
+      "action_probabilities": [
+        0.2500000000000004,
+        0.24999999999999947,
+        0.24999999999999944,
+        0.24999999999999958
+      ],
+      "flag_probability_given_action": [
+        0.9999990039004512,
+        0.9999999430795717,
+        0.9999999430795717,
+        0.9999999430795717
+      ],
+      "marked_probability": 0.6249997296299519,
+      "invalid_or_dirty_move_probability": 6.76701159286329e-32,
+      "abstract_operations": 2081,
+      "inverse_zero_return_probability": 0.999999999999998,
+      "qpy_file": "COAST_G7_E4_fpaa.qpy",
+      "qpy_bytes": 1532340,
+      "sha256": "fac159b35af31ac88dc3f0ec6ed174b9defb0c15044a2287681014bfa278a3aa",
+      "qpy_roundtrip_fidelity": 0.9999999999999813,
+      "qpy_roundtrip_max_amplitude_error": 2.757616747479231e-15,
+      "coherent_random_input_max_amplitude_error": 2.9244371525636465e-16,
+      "circuit_depth": 8807,
+      "circuit_operations": {
+        "x": 24480,
+        "mcx": 3325,
+        "ry": 2698,
+        "ccx": 76,
+        "p": 9,
+        "mcphase": 9,
+        "h": 2
+      }
+    },
+    "filter": {
+      "norm": 0.9999999999999979,
+      "action_probabilities": [
+        0.39062482924000935,
+        0.20312505691999616,
+        0.20312505691999608,
+        0.20312505691999627
+      ],
+      "flag_probability_given_action": [
+        0.9999999601561731,
+        0.9999999956215256,
+        0.9999999956215256,
+        0.9999999956215256
+      ],
+      "marked_probability": 0.9765625844906012,
+      "invalid_or_dirty_move_probability": 1.9608890902538724e-31,
+      "abstract_operations": 6271,
+      "inverse_zero_return_probability": 0.9999999999999958,
+      "qpy_file": "COAST_G7_E4_filter.qpy",
+      "qpy_bytes": 4611388,
+      "sha256": "86380e80107d59fc4d4153d4d9c39b1bfd209e394c7667e735fefb519a53f035",
+      "qpy_roundtrip_fidelity": 0.9999999999999514,
+      "qpy_roundtrip_max_amplitude_error": 1.093583768289699e-14,
+      "coherent_random_input_max_amplitude_error": 8.26464210864019e-16,
+      "circuit_depth": 26505,
+      "circuit_operations": {
+        "x": 73736,
+        "mcx": 9975,
+        "ry": 8094,
+        "ccx": 228,
+        "mcphase": 55,
+        "p": 27,
+        "h": 6
+      }
+    },
+    "final": {
+      "norm": 0.9999999999999926,
+      "action_probabilities": [
+        0.3999997745969118,
+        0.20000007513436047,
+        0.20000007513436002,
+        0.20000007513436036
+      ],
+      "flag_probability_given_action": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "marked_probability": 0.9999999999999927,
+      "invalid_or_dirty_move_probability": 5.160469705611748e-31,
+      "abstract_operations": 18841,
+      "inverse_zero_return_probability": 0.9999999999999871,
+      "qpy_file": "COAST_G7_E4_final.qpy",
+      "qpy_bytes": 13848518,
+      "sha256": "a18105ae4f48d1b756268fff3117a72ba936c786f47ee80ca5136398c1981ab8",
+      "qpy_roundtrip_fidelity": 0.9999999999998475,
+      "qpy_roundtrip_max_amplitude_error": 4.308141016956491e-14,
+      "coherent_random_input_max_amplitude_error": 2.48871582180736e-15,
+      "circuit_depth": 79599,
+      "circuit_operations": {
+        "x": 221504,
+        "mcx": 29925,
+        "ry": 24282,
+        "ccx": 684,
+        "mcphase": 193,
+        "p": 81,
+        "h": 18
+      }
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "logical_qubits": 13,
+  "metadata": {
+    "gamma": 0.408248290463863,
+    "gamma_squared": 0.16666666666666666,
+    "beta": {
+      "1": 1.0,
+      "2": 0.5773502691896258,
+      "3": 0.408248290463863,
+      "4": 0.408248290463863
+    },
+    "layers": [
+      {
+        "ply": 1,
+        "cumulative_ops": 5
+      },
+      {
+        "ply": 2,
+        "cumulative_ops": 29,
+        "parents": 3
+      },
+      {
+        "ply": 3,
+        "cumulative_ops": 84,
+        "parents": 9
+      },
+      {
+        "ply": 4,
+        "cumulative_ops": 108,
+        "parents": 6
+      }
+    ],
+    "schedule": {
+      "p_lower": 0.16666666666666666,
+      "delta": 0.001,
+      "K": 19,
+      "iterates": 9,
+      "raw_preparation_calls": 19,
+      "width_parameter": 0.1443920894842864,
+      "alpha": [
+        2.8821564905583426,
+        2.566472031572301,
+        2.0880062813031643,
+        1.1756699305179263,
+        5.853777872196933,
+        4.569342637453391,
+        3.924540165789653,
+        3.547218229606171,
+        3.2682411920036505
+      ],
+      "beta": [
+        -3.2682411920036505,
+        -3.547218229606171,
+        -3.924540165789653,
+        -4.569342637453391,
+        -5.853777872196933,
+        -1.1756699305179263,
+        -2.0880062813031643,
+        -2.566472031572301,
+        -2.8821564905583426
+      ],
+      "success_flag_phase_gates": 9
+    },
+    "analytic_q_filtered": 0.9765625844906012,
+    "integer_iterations": 0,
+    "fractional_phases": {
+      "source": 1.0609993558871869,
+      "target": 1.0609993558871877
+    },
+    "calibration_mode": "ideal statevector calibration; no QPU estimate or QPU execution"
+  },
+  "qpu_executed": false,
+  "raw_native_all_to_all": {
+    "qubits": 13,
+    "depth": 51537,
+    "two_qubit_depth": 20136,
+    "ops": {
+      "rz": 35333,
+      "cx": 23980,
+      "sx": 8456,
+      "x": 206
+    },
+    "qpy_file": "COAST_G7_E4_raw_native.qpy",
+    "roundtrip_max_amplitude_error": 1.376547025896046e-13,
+    "random_input_max_amplitude_error": 1.2050225503697353e-14,
+    "sha256": "93388168fe1277b84ee35db58eb9879dd1d9e07bac821b32f6435b121caefcc9",
+    "routing": "none; all-to-all reference, not backend ISA",
+    "optimization": "restore controlled-Ry then use dedicated no-ancilla synthesis"
+  },
+  "modules": {
+    "root": {
+      "file": "module_root.qpy",
+      "operations": 5
+    },
+    "ply2_select": {
+      "file": "module_ply2_select.qpy",
+      "operations": 7
+    },
+    "ply2_write": {
+      "file": "module_ply2_write.qpy",
+      "operations": 9
+    },
+    "ply2_unselect": {
+      "file": "module_ply2_unselect.qpy",
+      "operations": 8
+    },
+    "ply3_select": {
+      "file": "module_ply3_select.qpy",
+      "operations": 15
+    },
+    "ply3_write": {
+      "file": "module_ply3_write.qpy",
+      "operations": 18
+    },
+    "ply3_unselect": {
+      "file": "module_ply3_unselect.qpy",
+      "operations": 16
+    },
+    "ply3_attenuate": {
+      "file": "module_ply3_attenuate.qpy",
+      "operations": 6
+    },
+    "ply4_select": {
+      "file": "module_ply4_select.qpy",
+      "operations": 4
+    },
+    "ply4_write": {
+      "file": "module_ply4_write.qpy",
+      "operations": 6
+    },
+    "ply4_unselect": {
+      "file": "module_ply4_unselect.qpy",
+      "operations": 8
+    },
+    "ply4_attenuate": {
+      "file": "module_ply4_attenuate.qpy",
+      "operations": 6
+    }
+  },
+  "elapsed_seconds": 46.30452919006348,
+  "all_checks_passed": true,
+  "raw_native_before_rotation_recovery": {
+    "qubits": 13,
+    "depth": 190970,
+    "two_qubit_depth": 75513,
+    "ops": {
+      "rz": 134699,
+      "cx": 91948,
+      "sx": 30402,
+      "x": 87
+    },
+    "qpy_file": "COAST_G7_E4_raw_native.qpy",
+    "roundtrip_max_amplitude_error": 5.37664055059942e-13,
+    "sha256": "f971d0812237b8afd1307c2999b4c26ed8de3c8f7648ad5410cc8e7d92d2831d",
+    "routing": "none; all-to-all resource reference, not backend ISA"
+  },
+  "all_stage_synthesis_baseline": {
+    "raw": {
+      "qubits": 13,
+      "cx_by_independent_gate_expansion": 23980,
+      "interpretation": "explicit decomposition cost, no cross-gate optimization or device routing; not measured hardware count"
+    },
+    "fpaa": {
+      "qubits": 13,
+      "cx_by_independent_gate_expansion": 460840,
+      "interpretation": "explicit decomposition cost, no cross-gate optimization or device routing; not measured hardware count"
+    },
+    "filter": {
+      "qubits": 13,
+      "cx_by_independent_gate_expansion": 1392168,
+      "interpretation": "explicit decomposition cost, no cross-gate optimization or device routing; not measured hardware count"
+    },
+    "final": {
+      "qubits": 13,
+      "cx_by_independent_gate_expansion": 4186152,
+      "interpretation": "explicit decomposition cost, no cross-gate optimization or device routing; not measured hardware count"
+    }
+  }
+}

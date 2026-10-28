@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "COAST_G7_E4_raw.qpy",
+      "max_amplitude_error": 1.6653345369377348e-16,
+      "sha256_match": true
+    },
+    {
+      "file": "COAST_G7_E4_fpaa.qpy",
+      "max_amplitude_error": 2.757616747479231e-15,
+      "sha256_match": true
+    },
+    {
+      "file": "COAST_G7_E4_filter.qpy",
+      "max_amplitude_error": 1.093583768289699e-14,
+      "sha256_match": true
+    },
+    {
+      "file": "COAST_G7_E4_final.qpy",
+      "max_amplitude_error": 4.308141016956491e-14,
+      "sha256_match": true
+    },
+    {
+      "file": "COAST_G7_E4_raw_native.qpy",
+      "max_amplitude_error": 1.376547025896046e-13,
+      "sha256_match": true
+    },
+    {
+      "file": "module_root.qpy",
+      "random_input_max_amplitude_error": 3.878959614448864e-18
+    },
+    {
+      "file": "module_ply2_select.qpy",
+      "random_input_max_amplitude_error": 1.7368905267604862e-17
+    },
+    {
+      "file": "module_ply2_write.qpy",
+      "random_input_max_amplitude_error": 0.0
+    },
+    {
+      "file": "module_ply2_unselect.qpy",
+      "random_input_max_amplitude_error": 1.3877787807814457e-17
+    },
+    {
+      "file": "module_ply3_select.qpy",
+      "random_input_max_amplitude_error": 2.4425128309372856e-17
+    },
+    {
+      "file": "module_ply3_write.qpy",
+      "random_input_max_amplitude_error": 4.9065389333867974e-18
+    },
+    {
+      "file": "module_ply3_unselect.qpy",
+      "random_input_max_amplitude_error": 2.4348004250999632e-17
+    },
+    {
+      "file": "module_ply3_attenuate.qpy",
+      "random_input_max_amplitude_error": 1.5612511283791264e-17
+    },
+    {
+      "file": "module_ply4_select.qpy",
+      "random_input_max_amplitude_error": 1.0551910960100404e-17
+    },
+    {
+      "file": "module_ply4_write.qpy",
+      "random_input_max_amplitude_error": 4.9065389333867974e-18
+    },
+    {
+      "file": "module_ply4_unselect.qpy",
+      "random_input_max_amplitude_error": 1.7541305574877886e-17
+    },
+    {
+      "file": "module_ply4_attenuate.qpy",
+      "random_input_max_amplitude_error": 2.173602285337623e-17
+    }
+  ],
+  "scope": "all four stages, native raw and all nonempty propagation modules; QPY loaded from disk"
+}

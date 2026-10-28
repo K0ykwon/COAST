@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "circuit": "ttt_late_prepare",
+      "check": "reloaded root marginal",
+      "max_error": 4.440892098500626e-16
+    },
+    {
+      "circuit": "ttt_late_filter",
+      "check": "reloaded root marginal",
+      "max_error": 4.773959005888173e-15
+    },
+    {
+      "circuit": "ttt_late_final",
+      "check": "reloaded root marginal",
+      "max_error": 1.4932499681208355e-14
+    },
+    {
+      "circuit": "ttt_late_qpe4",
+      "check": "reloaded QPE phase law",
+      "max_error": 8.865130851631875e-14,
+      "phase_distribution": [
+        7.516695765725898e-06,
+        7.84986689785815e-06,
+        8.982630458636114e-06,
+        1.1449146050524414e-05,
+        1.6885505368170473e-05,
+        3.167271642958965e-05,
+        0.0001043894597323462,
+        0.49971729528215414,
+        0.00019543408990893726,
+        0.49971729528214204,
+        0.00010438945973150585,
+        3.1672716429451704e-05,
+        1.68855053680941e-05,
+        1.1449146050472799e-05,
+        8.982630458622786e-06,
+        7.849866897880167e-06
+      ]
+    },
+    {
+      "circuit": "gomoku_four_empty_prepare",
+      "check": "reloaded root marginal",
+      "max_error": 1.2212453270876722e-15
+    },
+    {
+      "circuit": "gomoku_four_empty_filter",
+      "check": "reloaded root marginal",
+      "max_error": 1.7763568394002505e-14
+    },
+    {
+      "circuit": "gomoku_four_empty_final",
+      "check": "reloaded root marginal",
+      "max_error": 5.473399511402022e-14
+    },
+    {
+      "circuit": "gomoku_four_empty_qpe4",
+      "check": "reloaded QPE phase law",
+      "max_error": 1.082967049370609e-12,
+      "phase_distribution": [
+        0.0015910412067765148,
+        0.0016587118469689826,
+        0.0018872063758989437,
+        0.0023767016293110925,
+        0.0034206744569238575,
+        0.006066485015218983,
+        0.01673964634657566,
+        0.43390836191712456,
+        0.06629338361569502,
+        0.43390836191720705,
+        0.01673964634656787,
+        0.0060664850152174765,
+        0.0034206744569231446,
+        0.002376701629310827,
+        0.0018872063758987412,
+        0.0016587118469691
+      ]
+    },
+    {
+      "circuit": "fpaa_control_0_amplified",
+      "check": "reloaded amplification response",
+      "success": 0.999999557086775
+    },
+    {
+      "circuit": "fpaa_control_1_amplified",
+      "check": "reloaded amplification response",
+      "success": 0.9999992116959989
+    },
+    {
+      "circuit": "fpaa_control_2_amplified",
+      "check": "reloaded amplification response",
+      "success": 0.9999999089428878
+    },
+    {
+      "circuit": "fpaa_control_3_amplified",
+      "check": "reloaded amplification response",
+      "success": 0.9999990111907098
+    },
+    {
+      "circuit": "fpaa_control_4_amplified",
+      "check": "reloaded amplification response",
+      "success": 0.9999990070877072
+    },
+    {
+      "circuit": "fpaa_control_5_amplified",
+      "check": "reloaded amplification response",
+      "success": 1.0000000000000004
+    },
+    {
+      "circuit": "winner7",
+      "check": "reloaded primitive-only width",
+      "qubits": 105,
+      "full_statevector": false
+    },
+    {
+      "circuit": "winner7_fast",
+      "check": "reloaded primitive-only width",
+      "qubits": 110,
+      "full_statevector": false
+    }
+  ],
+  "full_127_qubit_preparation_implemented": false,
+  "hardware_executed": false
+}

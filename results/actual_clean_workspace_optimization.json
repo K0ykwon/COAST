@@ -1,0 +1,38 @@
+{
+  "raw": {
+    "qubits": 23,
+    "data_qubits": 13,
+    "clean_work_qubits": 10,
+    "cx": 3300,
+    "two_qubit_depth": 3247,
+    "depth": 8642,
+    "previous_cx": 23980,
+    "previous_two_qubit_depth": 20136,
+    "full_toffoli_clean_workspace_cx": 9640,
+    "cx_reduction_fraction": 0.8623853211009174,
+    "checks": {
+      "zero": {
+        "max_data_amplitude_error": 1.8534303062818026e-13,
+        "dirty_work_probability": 4.268189232359242e-28
+      },
+      "coherent_random_data": {
+        "max_data_amplitude_error": 1.4394140007820866e-14,
+        "dirty_work_probability": 1.3104973654734906e-27
+      }
+    },
+    "native_max_amplitude_error": 3.4936796898967135e-14,
+    "native_dirty_work_probability": 2.061113752688204e-29,
+    "qpy": "COAST_G7_E4_raw_clean23.qpy",
+    "native_qpy": "COAST_G7_E4_raw_clean23_native.qpy",
+    "qpy_sha256": "eef78f86ebf6b0a60347b553087426defb70b5f38544082a6dbbcae25a61b28b",
+    "native_qpy_sha256": "2de27a84af2efb0e88f5c7d474a05bbdeda4a55365669842b871c2e89ffc021c",
+    "compute_uncompute": "relative-phase Toffoli and exact inverse; phase cancels as controls and scratch are unchanged",
+    "all_to_all": true,
+    "backend_routed": false,
+    "qpu_executed": false,
+    "limitation": "This clean-workspace circuit still uses a compiler exponential in empty-cell count."
+  },
+  "full_pipeline_qubits_with_max_12_work": 25,
+  "pipeline_comparison": "to be evaluated after raw benchmark",
+  "elapsed_seconds": 289.0596480369568
+}

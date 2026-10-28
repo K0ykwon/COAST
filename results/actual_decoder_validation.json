@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "known_valid_invalid_dirty_mix": {
+    "shots": 15,
+    "action_counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "action_probabilities": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "action_intervals_95": [
+      [
+        0.7961166989641515,
+        1
+      ],
+      [
+        0,
+        0.20388330103584862
+      ],
+      [
+        0,
+        0.20388330103584862
+      ],
+      [
+        0,
+        0.20388330103584862
+      ]
+    ],
+    "flag_counts": [
+      12,
+      0,
+      0,
+      0
+    ],
+    "flag_probability_given_action": [
+      0.8,
+      null,
+      null,
+      null
+    ],
+    "flag_intervals_given_action_95": [
+      [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      null,
+      null,
+      null
+    ],
+    "valid_terminal_counts": [
+      10,
+      0,
+      0,
+      0
+    ],
+    "marked_counts": [
+      10,
+      0,
+      0,
+      0
+    ],
+    "marked_probability": 0.6666666666666666,
+    "marked_interval_95": [
+      0.41713547738519774,
+      0.8482367556028526
+    ],
+    "invalid_board_counts": 3,
+    "dirty_move_counts": 2,
+    "off_support_counts": 3,
+    "note": "Unconditional denominators; no postselection. Invalid categories may overlap."
+  },
+  "clean_work_23q_known_mix": {
+    "shots": 12,
+    "valid_marked": 10,
+    "dirty_work": 2,
+    "passed": true
+  }
+}

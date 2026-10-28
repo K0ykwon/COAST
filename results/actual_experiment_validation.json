@@ -1,0 +1,105 @@
+{
+  "qpu_executed": false,
+  "passed": true,
+  "experiments": [
+    {
+      "name": "root_coherent_simplified",
+      "file": "experiments/root_coherent_simplified.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 1.6653345369377348e-16,
+      "sha256": "8872e647914a9ecfaa34b3754fe241f8a6668c8b9c6b539342b1c3f7248054d1",
+      "native_all_to_all": {
+        "cx": 32,
+        "two_qubit_depth": 32
+      }
+    },
+    {
+      "name": "root_action_0",
+      "file": "experiments/root_action_0.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 1.1102230246251565e-16,
+      "sha256": "ca1338ad2f3ba917605382575bf3d2061a4bf7c1fa2dd871ab6f51e9f78bfbb7",
+      "native_all_to_all": {
+        "cx": 160,
+        "two_qubit_depth": 143
+      }
+    },
+    {
+      "name": "root_action_1",
+      "file": "experiments/root_action_1.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 0.0,
+      "sha256": "4257c37ef6532f1dccf9903a0114b13a50987b7beae5eac723173debd3174b3c",
+      "native_all_to_all": {
+        "cx": 160,
+        "two_qubit_depth": 143
+      }
+    },
+    {
+      "name": "root_action_2",
+      "file": "experiments/root_action_2.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 0.0,
+      "sha256": "65be8eea0eaa41095d7ffc8d1bc280e353a4f7739d5309360e2b4d65ff52c1c1",
+      "native_all_to_all": {
+        "cx": 160,
+        "two_qubit_depth": 143
+      }
+    },
+    {
+      "name": "root_action_3",
+      "file": "experiments/root_action_3.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 0.0,
+      "sha256": "5f50a3a0155b2d8e4e0e133f6bf9711372adcbc3f3c4fe6d156492feb3a939dc",
+      "native_all_to_all": {
+        "cx": 160,
+        "two_qubit_depth": 143
+      }
+    },
+    {
+      "name": "prefix_ply_2",
+      "file": "experiments/prefix_ply_2.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 1.3877787807814457e-16,
+      "sha256": "50442d251e6a1aca1f5e989b9ee96a58ef34dfe7754a7c5ba3394b2759a5308e"
+    },
+    {
+      "name": "prefix_ply_3",
+      "file": "experiments/prefix_ply_3.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 1.6653345369377348e-16,
+      "sha256": "2d2b07f90352115e451f16975c6aed4d1b8c2d3cd49f27b4f6a895b18427dcbd"
+    },
+    {
+      "name": "raw_echo",
+      "file": "experiments/raw_echo.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 3.885780586188048e-16,
+      "sha256": "07db21c499513bb0145797d50750cede9dde3f81636b54f1b4df4e7b1fe9754f"
+    },
+    {
+      "name": "readout_zero",
+      "file": "experiments/readout_zero.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 0.0,
+      "sha256": "eed13fce5d900248d198eb171afcc64363aad884ab9cb6971bc8b8b532d00e86"
+    },
+    {
+      "name": "readout_one",
+      "file": "experiments/readout_one.qpy",
+      "qubits": 13,
+      "qpy_reload_max_amplitude_error": 0.0,
+      "sha256": "a623fc233de5afc75992cb64606484937fb80bc52a10f61e9fffc1b256150b87"
+    },
+    {
+      "name": "calibration_Q1",
+      "file": "experiments/calibration_Q1.qpy",
+      "qubits": 14,
+      "qpy_reload_max_amplitude_error": 2.5435982422498847e-14,
+      "sha256": "43ac071c055a9b248096677ca3330d3b535b9c6d6fbdff76ba90409198d8904d",
+      "ancilla_one_probability": 0.976562584490512,
+      "expected_q_filtered": 0.9765625844906012
+    }
+  ]
+}

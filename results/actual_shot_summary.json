@@ -1,0 +1,353 @@
+{
+  "simulator_only": true,
+  "runs": [
+    {
+      "stage": "raw",
+      "shots": 8192,
+      "action_counts": [
+        1983,
+        2072,
+        2080,
+        2057
+      ],
+      "action_probabilities": [
+        0.2420654296875,
+        0.2529296875,
+        0.25390625,
+        0.2510986328125
+      ],
+      "action_intervals_95": [
+        [
+          0.23291225373967728,
+          0.2514603977771711
+        ],
+        [
+          0.24363386157432831,
+          0.2624571212321559
+        ],
+        [
+          0.2445979873844519,
+          0.26344520497615687
+        ],
+        [
+          0.2418262951316148,
+          0.26060429476088587
+        ]
+      ],
+      "flag_counts": [
+        323,
+        1416,
+        1377,
+        1358
+      ],
+      "flag_probability_given_action": [
+        0.16288451840645488,
+        0.6833976833976834,
+        0.6620192307692307,
+        0.6601847350510452
+      ],
+      "flag_intervals_given_action_95": [
+        [
+          0.14728648810131378,
+          0.17978614063596493
+        ],
+        [
+          0.6630455235804509,
+          0.7030710682096386
+        ],
+        [
+          0.6414089621998269,
+          0.6820321504371374
+        ],
+        [
+          0.6394345947558737,
+          0.6803376988280827
+        ]
+      ],
+      "valid_terminal_counts": [
+        1983,
+        2072,
+        2080,
+        2057
+      ],
+      "marked_counts": [
+        323,
+        725,
+        643,
+        674
+      ],
+      "marked_probability": 0.2886962890625,
+      "marked_interval_95": [
+        0.2789841411914204,
+        0.2986065165348761
+      ],
+      "invalid_board_counts": 0,
+      "dirty_move_counts": 0,
+      "off_support_counts": 0,
+      "note": "Unconditional denominators; no postselection. Invalid categories may overlap."
+    },
+    {
+      "stage": "fpaa",
+      "shots": 8192,
+      "action_counts": [
+        2035,
+        2022,
+        2064,
+        2071
+      ],
+      "action_probabilities": [
+        0.2484130859375,
+        0.246826171875,
+        0.251953125,
+        0.2528076171875
+      ],
+      "action_intervals_95": [
+        [
+          0.23917560039697974,
+          0.25788641322167827
+        ],
+        [
+          0.2376095077261143,
+          0.2562801653670913
+        ],
+        [
+          0.24266979856261875,
+          0.2614689746897409
+        ],
+        [
+          0.24351335025864432,
+          0.2623336063535743
+        ]
+      ],
+      "flag_counts": [
+        2035,
+        2022,
+        2064,
+        2071
+      ],
+      "flag_probability_given_action": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flag_intervals_given_action_95": [
+        [
+          0.998115861925372,
+          1
+        ],
+        [
+          0.9981037712482543,
+          1
+        ],
+        [
+          0.998142285616575,
+          1
+        ],
+        [
+          0.9981485530837244,
+          1
+        ]
+      ],
+      "valid_terminal_counts": [
+        2035,
+        2022,
+        2064,
+        2071
+      ],
+      "marked_counts": [
+        2035,
+        1007,
+        1055,
+        1060
+      ],
+      "marked_probability": 0.6295166015625,
+      "marked_interval_95": [
+        0.6190003527166853,
+        0.6399114393990856
+      ],
+      "invalid_board_counts": 0,
+      "dirty_move_counts": 0,
+      "off_support_counts": 0,
+      "note": "Unconditional denominators; no postselection. Invalid categories may overlap."
+    },
+    {
+      "stage": "filter",
+      "shots": 8192,
+      "action_counts": [
+        3222,
+        1657,
+        1647,
+        1666
+      ],
+      "action_probabilities": [
+        0.393310546875,
+        0.2022705078125,
+        0.2010498046875,
+        0.203369140625
+      ],
+      "action_intervals_95": [
+        [
+          0.3827849001593914,
+          0.4039362060524996
+        ],
+        [
+          0.19371241807764922,
+          0.21110769410862296
+        ],
+        [
+          0.1925119256641206,
+          0.2098679245794959
+        ],
+        [
+          0.194792967572297,
+          0.21222338036236535
+        ]
+      ],
+      "flag_counts": [
+        3222,
+        1657,
+        1647,
+        1666
+      ],
+      "flag_probability_given_action": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flag_intervals_given_action_95": [
+        [
+          0.9988091606888522,
+          0.9999999999999999
+        ],
+        [
+          0.9976870406261285,
+          1
+        ],
+        [
+          0.9976730298356826,
+          1
+        ],
+        [
+          0.997699506860126,
+          1
+        ]
+      ],
+      "valid_terminal_counts": [
+        3222,
+        1657,
+        1647,
+        1666
+      ],
+      "marked_counts": [
+        3222,
+        1591,
+        1583,
+        1602
+      ],
+      "marked_probability": 0.976318359375,
+      "marked_interval_95": [
+        0.9727955955455848,
+        0.9793946144786735
+      ],
+      "invalid_board_counts": 0,
+      "dirty_move_counts": 0,
+      "off_support_counts": 0,
+      "note": "Unconditional denominators; no postselection. Invalid categories may overlap."
+    },
+    {
+      "stage": "final",
+      "shots": 8192,
+      "action_counts": [
+        3270,
+        1680,
+        1655,
+        1587
+      ],
+      "action_probabilities": [
+        0.399169921875,
+        0.205078125,
+        0.2020263671875,
+        0.1937255859375
+      ],
+      "action_intervals_95": [
+        [
+          0.3886146308103089,
+          0.40981973272632943
+        ],
+        [
+          0.19647402107702333,
+          0.21395869357735703
+        ],
+        [
+          0.19347230962198875,
+          0.21085975017575231
+        ],
+        [
+          0.1853116303384689,
+          0.20242664824921333
+        ]
+      ],
+      "flag_counts": [
+        3270,
+        1680,
+        1655,
+        1587
+      ],
+      "flag_probability_given_action": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flag_intervals_given_action_95": [
+        [
+          0.998826620388002,
+          1
+        ],
+        [
+          0.9977186339007328,
+          0.9999999999999999
+        ],
+        [
+          0.997684251981847,
+          1
+        ],
+        [
+          0.9975852660870795,
+          0.9999999999999999
+        ]
+      ],
+      "valid_terminal_counts": [
+        3270,
+        1680,
+        1655,
+        1587
+      ],
+      "marked_counts": [
+        3270,
+        1680,
+        1655,
+        1587
+      ],
+      "marked_probability": 1.0,
+      "marked_interval_95": [
+        0.9995312917117791,
+        1
+      ],
+      "invalid_board_counts": 0,
+      "dirty_move_counts": 0,
+      "off_support_counts": 0,
+      "note": "Unconditional denominators; no postselection. Invalid categories may overlap."
+    },
+    {
+      "stage": "calibration_Q1",
+      "q_filtered_estimate": 0.976806640625,
+      "interval_95": [
+        0.9756260125598561,
+        0.9779313749609366
+      ]
+    }
+  ]
+}

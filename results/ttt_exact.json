@@ -1,0 +1,32 @@
+{
+  "reachable_states": 5478,
+  "nonterminal_states": 4520,
+  "metrics": {
+    "uniform_optimal_probability": 0.5796502317741229,
+    "filtered_optimal_probability": 0.6975583267632769,
+    "exact_final_optimal_probability": 0.7050988059052332,
+    "exact_final_marked_probability": 0.8867256637168142,
+    "all_maximizers_optimal_agreement": 0.8747787610619469,
+    "any_maximizer_optimal_agreement": 0.9553097345132744,
+    "uniform_tie_agreement": 0.9135693215339235,
+    "smallest_index_tie_agreement": 0.9134955752212389
+  },
+  "zero_win_states": 512,
+  "predicate_checks": [
+    {
+      "root": 0,
+      "terminals": 415,
+      "set_equality": true
+    },
+    {
+      "root": 1,
+      "terminals": 377,
+      "set_equality": true
+    },
+    {
+      "root": 4,
+      "terminals": 452,
+      "set_equality": true
+    }
+  ]
+}
